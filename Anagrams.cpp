@@ -1,15 +1,7 @@
-// kk4036_hw9_q2.cpp : Test for Anagrams
-// 2 strs are anagrams if the letters can be rearranged to form each other.
-// e.g. "Eleven plus two" is an anagram of "Twelve plus one"
-// Each string contains 1 'v', 3 'e's, 2 'i's, etc.
-// Write a program that determines if two strings are anagrams.
-// Should not be case sensitive and should disregard any punct/spaces.
-//  T(n) = O(n)
 // (1) total # of letters (only letters) must match
 // (2) count the # of every letter's occurrences (even the unused ones)
 // (3) # of letter occurrrences of str1 must match that of str2
 
-#include "pch.h"
 #include <iostream>
 #include <string>
 using namespace std;
